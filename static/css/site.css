@@ -51,7 +51,6 @@ code,
 pre,
 .eyebrow,
 .brand,
-.brand-note,
 .site-nav,
 .post-meta,
 .post-card-meta,
@@ -78,11 +77,9 @@ pre,
 .site-shell {
   width: min(calc(100% - 2rem), var(--max));
   margin: 0 auto;
-  padding: 2rem 0 4rem;
+  padding: 1.25rem 0 3rem;
 }
 
-.site-header,
-.site-footer,
 .hero,
 .feature-block,
 .post-card,
@@ -100,18 +97,14 @@ pre,
 .site-header,
 .site-footer {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  padding: 1rem 1.25rem;
-  border-radius: var(--radius);
+  padding: 0.25rem 0;
 }
 
 .site-header {
-  position: sticky;
-  top: 1rem;
-  z-index: 10;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .brand {
@@ -122,7 +115,6 @@ pre,
   text-transform: uppercase;
 }
 
-.brand-note,
 .eyebrow,
 .post-meta,
 .post-card-meta,
@@ -133,10 +125,6 @@ pre,
   font-size: 0.82rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.brand-note {
-  margin: 0.35rem 0 0;
 }
 
 .site-nav,
@@ -378,7 +366,9 @@ pre,
 }
 
 .site-footer {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
 }
 
 @keyframes rise {
@@ -412,7 +402,6 @@ pre,
   .hero-meta,
   .site-header,
   .site-footer {
-    grid-template-columns: 1fr;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -434,12 +423,7 @@ pre,
 @media (max-width: 640px) {
   .site-shell {
     width: min(calc(100% - 1rem), var(--max));
-    padding-top: 1rem;
-  }
-
-  .site-header {
-    position: static;
-    margin-bottom: 2rem;
+    padding-top: 0.75rem;
   }
 
   .hero h1,

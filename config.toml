@@ -37,12 +37,12 @@ pagination.pagerSize = 8
   accentColor = "#4c8cf5"
   tagline = "Weekly essays on building products, leading teams, and thinking clearly."
   location = "San Francisco, California"
-  email = "hello@haifengxu.com"
+  email = "me@haifengxu.com"
   ogImage = "/og/cover.svg"
   mainSections = ["posts"]
   intro = "I write about product engineering, reflective practice, and leadership in technical organizations."
   github = "https://github.com/haifengxu"
-  linkedin = "https://www.linkedin.com/in/haifengxu/"
+  linkedin = "https://www.linkedin.com/in/haifeng-xu-88526728/"
   x = "https://x.com/haifengxu"
 
 [menu]

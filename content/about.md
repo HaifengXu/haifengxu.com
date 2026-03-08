@@ -15,4 +15,4 @@ Most posts start from something practical: a product decision, a leadership trad
 
 If a post is worth publishing, it should help someone think more clearly about their own work.
 
-You can find me on [GitHub](https://github.com/haifengxu), [LinkedIn](https://www.linkedin.com/in/haifengxu/), or by email at [hello@haifengxu.com](mailto:hello@haifengxu.com).
+You can find me on [GitHub](https://github.com/haifengxu), [LinkedIn](https://www.linkedin.com/in/haifeng-xu-88526728/), or by email at [me@haifengxu.com](mailto:me@haifengxu.com).

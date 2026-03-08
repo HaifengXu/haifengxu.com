@@ -1,8 +1,5 @@
 <header class="site-header">
-  <div>
-    <a class="brand" href="{{ `/` | relURL }}">haifengxu.com</a>
-    <p class="brand-note">essays on tech, reflection, and leadership</p>
-  </div>
+  <a class="brand" href="{{ `/` | relURL }}">haifengxu.com</a>
   <nav class="site-nav" aria-label="Primary">
     {{ range site.Menus.main }}
       <a href="{{ .URL }}">{{ .Name }}</a>

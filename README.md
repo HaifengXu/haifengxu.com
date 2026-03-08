@@ -72,6 +72,7 @@ Two workflows are included:
 
 - `.github/workflows/hugo-build.yml`: build validation on pushes and pull requests
 - `.github/workflows/cloudflare-pages-preview.yml`: optional preview deploys for pull requests when `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` are configured in the GitHub repo secrets
+- `.github/workflows/cloudflare-pages-production.yml`: production deploys to Cloudflare Pages on every push to `main`
 
 ## Notes
 
