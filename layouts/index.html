@@ -1,37 +1,8 @@
 {{ define "main" }}
-  {{ $featured := first 1 ((where site.RegularPages "Params.featured" true).ByDate.Reverse) }}
-  {{ $latest := first 6 ((where (where site.RegularPages "Section" "posts") "Params.featured" "!=" true).ByDate.Reverse) }}
-
-  <section class="hero">
-    <p class="eyebrow">Seattle, Washington</p>
-    <h1>{{ site.Title }}</h1>
-    <p class="lede">{{ site.Params.tagline }}</p>
-    <div class="hero-meta">
-      <p>{{ site.Params.location }}</p>
-      <p>Writing archive and notes.</p>
-    </div>
-  </section>
-
-  {{ with index $featured 0 }}
-    <section class="feature-block">
-      <div>
-        <p class="eyebrow">Featured</p>
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      </div>
-      <p>{{ .Params.description }}</p>
-    </section>
-  {{ end }}
-
-  <section class="section-head">
-    <div>
-      <p class="eyebrow">Latest writing</p>
-      <h2>Recent posts</h2>
-    </div>
-    <a class="inline-link" href="{{ `/posts/` | relURL }}">View archive</a>
-  </section>
+  {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
 
   <section class="post-list" aria-label="Recent posts">
-    {{ range $latest }}
+    {{ range $posts }}
       {{ partial "post-card.html" . }}
     {{ end }}
   </section>

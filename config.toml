@@ -32,10 +32,10 @@ pagination.pagerSize = 8
     ordered = false
 
 [params]
-  description = "Notes on building, engineering, and clarity."
+  description = "notes on building, engineering, and clarity."
   author = "Haifeng Xu"
   accentColor = "#4c8cf5"
-  tagline = "Notes on building, engineering, and clarity."
+  tagline = "notes on building, engineering, and clarity."
   location = "Seattle, Washington"
   email = "me@haifengxu.com"
   ogImage = "/og/cover.svg"
@@ -47,11 +47,11 @@ pagination.pagerSize = 8
 
 [menu]
   [[menu.main]]
-    name = "Writing"
+    name = "writing"
     pageRef = "/posts"
     weight = 10
   [[menu.main]]
-    name = "About"
+    name = "about"
     pageRef = "/about"
     weight = 20
 
