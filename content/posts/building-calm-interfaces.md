@@ -2,7 +2,7 @@
 title = "Building Calm Interfaces"
 date = 2026-02-15T09:00:00-08:00
 draft = false
-description = "A product can feel powerful without asking for constant attention."
+description = "Why I keep coming back to calmer interfaces after years of using products that confuse noise for usefulness."
 tags = ["design", "product", "technology"]
 categories = []
 toc = true
@@ -10,13 +10,17 @@ readingTime = true
 featured = false
 +++
 
-Many products confuse intensity with usefulness.
+![A softly lit interface made of a few quiet cards with generous spacing.](/posts/building-calm-interfaces.svg)
 
-They add more badges, more motion, more urgency, and more reminders. The interface becomes louder in the name of engagement. Often it simply becomes harder to think.
+I have a recurring reaction to a certain kind of product screen: I can feel my shoulders tighten before I have even decided what to do.
+
+Usually it is the same pattern. Too many badges, too much motion, too many competing points of emphasis. Everything is trying to prove that it matters. Very little is helping me think.
+
+That is why I keep coming back to calm interfaces. Not because calm is trendy, but because a calmer product is often the one that respects the user's attention.
 
 ## Calm is a competitive advantage
 
-A calm interface respects the user's attention. It does not hide important information. It arranges information so that the next action is obvious without being forced.
+A calm interface does not mean an empty one. It means the important things are easier to see, and the next action is obvious without being aggressively announced.
 
 That usually means:
 
@@ -27,12 +31,12 @@ That usually means:
 
 ## The technical side of calm
 
-Calm is not only visual design. It is also performance, predictability, and restraint in state changes.
+I also do not think calm is only a visual design decision. It is deeply technical.
 
-If the interface shifts while I read, or if controls move as data loads, the product is asking me to spend attention on the product itself instead of the task.
+If the layout jumps while I read, or if controls move as data loads, the product is asking me to spend attention on the interface itself instead of the task I came to do.
 
 ## A useful test
 
-Ask whether every element on the page is helping the user decide, understand, or act.
+One test I keep returning to is simple: is each element helping the user decide, understand, or act?
 
-If it is only trying to announce itself, it is probably noise.
+If it is mostly trying to announce itself, it is probably noise.

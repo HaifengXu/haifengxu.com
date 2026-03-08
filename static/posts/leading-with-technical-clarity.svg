@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Leading with Technical Clarity illustration</title>
+  <desc id="desc">Abstract paths narrowing into a single clear route.</desc>
+  <rect width="1200" height="720" fill="#f4f1ea"/>
+  <rect x="56" y="56" width="1088" height="608" rx="36" fill="rgba(255,255,255,0.72)" stroke="rgba(21,25,34,0.16)"/>
+  <g fill="none" stroke-linecap="round" stroke-width="18">
+    <path d="M170 190C280 220 340 260 432 360" stroke="#9ebcf0"/>
+    <path d="M170 360C282 360 340 360 432 360" stroke="#7f8aa0"/>
+    <path d="M170 530C285 500 347 456 432 360" stroke="#c2cad8"/>
+    <path d="M432 360C560 360 666 360 802 360" stroke="#16181d"/>
+    <path d="M802 360C896 360 952 312 1034 228" stroke="#4c8cf5"/>
+  </g>
+  <circle cx="1034" cy="228" r="22" fill="#4c8cf5"/>
+  <g fill="#5d6470" font-family="'IBM Plex Mono', monospace" font-size="28" letter-spacing="3">
+    <text x="170" y="130">constraint</text>
+    <text x="470" y="316">tradeoff</text>
+    <text x="850" y="178">decision</text>
+  </g>
+</svg>

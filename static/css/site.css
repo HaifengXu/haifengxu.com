@@ -318,12 +318,21 @@ pre,
 .prose p,
 .prose ul,
 .prose ol,
+.prose img,
 .prose blockquote,
 .content-body p,
 .content-body ul,
 .content-body ol,
 .content-body blockquote {
   margin: 1.1rem 0;
+}
+
+.prose img,
+.content-body img {
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: var(--panel-strong);
 }
 
 .prose blockquote,

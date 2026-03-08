@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">The Weekly Reflection Loop illustration</title>
+  <desc id="desc">A notebook page with short prompts and a coffee cup.</desc>
+  <rect width="1200" height="720" fill="#f4f1ea"/>
+  <rect x="84" y="74" width="758" height="572" rx="28" fill="rgba(255,255,255,0.82)" stroke="rgba(21,25,34,0.14)"/>
+  <rect x="126" y="130" width="12" height="460" rx="6" fill="#d9deea"/>
+  <g fill="#16181d" font-family="'Newsreader', serif">
+    <text x="176" y="182" font-size="42">What created momentum?</text>
+    <text x="176" y="286" font-size="42">What created drag?</text>
+    <text x="176" y="390" font-size="42">What deserves a deeper conversation?</text>
+    <text x="176" y="494" font-size="42">What should change next week?</text>
+  </g>
+  <g stroke="#4c8cf5" stroke-width="10" stroke-linecap="round">
+    <path d="M178 212H526"/>
+    <path d="M178 316H458"/>
+    <path d="M178 420H706"/>
+    <path d="M178 524H612"/>
+  </g>
+  <circle cx="940" cy="268" r="128" fill="rgba(255,255,255,0.82)" stroke="rgba(21,25,34,0.14)"/>
+  <circle cx="940" cy="268" r="92" fill="#c69058"/>
+  <circle cx="940" cy="268" r="76" fill="#f1e1ce"/>
+  <path d="M1050 224c42 0 76 34 76 76s-34 76-76 76" fill="none" stroke="rgba(21,25,34,0.24)" stroke-width="18"/>
+</svg>
