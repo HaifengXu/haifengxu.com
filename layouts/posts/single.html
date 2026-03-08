@@ -1,0 +1,36 @@
+{{ define "main" }}
+  {{ $toc := .TableOfContents }}
+  <article class="post-single">
+    <header class="post-header">
+      <p class="eyebrow">Essay</p>
+      <h1>{{ .Title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format `2006-01-02` }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ if .Params.readingTime }}
+          <span>{{ .ReadingTime }} min read</span>
+        {{ end }}
+      </div>
+      {{ with .Params.description }}
+        <p class="lede">{{ . }}</p>
+      {{ end }}
+      {{ with .Params.tags }}
+        <ul class="tag-list" aria-label="Tags">
+          {{ range . }}
+            <li><a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">#{{ . }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </header>
+
+    {{ if and .Params.toc (findRE "<li>" $toc 1) }}
+      <aside class="toc-block">
+        <p class="eyebrow">On this page</p>
+        {{ $toc }}
+      </aside>
+    {{ end }}
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}

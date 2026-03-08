@@ -1,0 +1,19 @@
+<article class="post-card">
+  <div class="post-card-meta">
+    <time datetime="{{ .Date.Format `2006-01-02` }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    {{ if .Params.readingTime }}
+      <span>{{ .ReadingTime }} min read</span>
+    {{ end }}
+  </div>
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with .Params.description }}
+    <p>{{ . }}</p>
+  {{ end }}
+  {{ with .Params.tags }}
+    <ul class="tag-list" aria-label="Tags">
+      {{ range first 3 . }}
+        <li><a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">#{{ . }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</article>

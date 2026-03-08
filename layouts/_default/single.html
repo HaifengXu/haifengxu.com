@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article class="page-single prose">
+    <header class="page-intro">
+      <p class="eyebrow">{{ .Section | humanize }}</p>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="content-body">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}

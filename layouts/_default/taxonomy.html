@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <section class="page-intro">
+    <p class="eyebrow">{{ .Data.Singular | humanize }}</p>
+    <h1>#{{ .Title }}</h1>
+    <p class="lede">Posts filed under this topic.</p>
+  </section>
+
+  <section class="post-list" aria-label="Tagged posts">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "post-card.html" . }}
+    {{ end }}
+  </section>
+{{ end }}

@@ -1,0 +1,61 @@
+baseURL = "https://haifengxu.com/"
+title = "Haifeng Xu"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+summaryLength = 28
+pagination.pagerSize = 8
+
+[permalinks]
+  posts = "/writing/:slug/"
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"
+    lineNos = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[params]
+  description = "Essays on tech, reflection, and leadership."
+  author = "Haifeng Xu"
+  accentColor = "#4c8cf5"
+  tagline = "Weekly essays on building products, leading teams, and thinking clearly."
+  location = "San Francisco, California"
+  email = "hello@haifengxu.com"
+  ogImage = "/og/cover.svg"
+  mainSections = ["posts"]
+  intro = "I write about product engineering, reflective practice, and leadership in technical organizations."
+  github = "https://github.com/haifengxu"
+  linkedin = "https://www.linkedin.com/in/haifengxu/"
+  x = "https://x.com/haifengxu"
+
+[menu]
+  [[menu.main]]
+    name = "Writing"
+    pageRef = "/posts"
+    weight = 10
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 20
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.6
+  filename = "sitemap.xml"

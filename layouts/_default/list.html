@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <section class="page-intro">
+    <p class="eyebrow">{{ .Section | default .Title }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+      <div class="lede">{{ . }}</div>
+    {{ else }}
+      <p class="lede">A running archive of essays on building, leading, and reflecting with care.</p>
+    {{ end }}
+  </section>
+
+  {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+  {{ if gt (len $paginator.Pages) 0 }}
+    <section class="post-list" aria-label="Post list">
+      {{ range $paginator.Pages }}
+        {{ partial "post-card.html" . }}
+      {{ end }}
+    </section>
+    {{ partial "pagination.html" . }}
+  {{ else }}
+    <section class="empty-state">
+      <p>No posts published yet. Weekly essays will land here.</p>
+    </section>
+  {{ end }}
+{{ end }}

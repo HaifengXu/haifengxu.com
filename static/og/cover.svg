@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F4F1EA"/>
+  <circle cx="152" cy="124" r="220" fill="#4C8CF5" fill-opacity="0.14"/>
+  <rect x="72" y="82" width="1056" height="466" rx="28" fill="white" fill-opacity="0.62" stroke="#20242D" stroke-opacity="0.12"/>
+  <text x="112" y="238" fill="#181B22" font-family="IBM Plex Mono, monospace" font-size="26" letter-spacing="4">HAIFENGXU.COM</text>
+  <text x="112" y="336" fill="#181B22" font-family="Newsreader, Georgia, serif" font-size="72">Tech, reflection,</text>
+  <text x="112" y="412" fill="#181B22" font-family="Newsreader, Georgia, serif" font-size="72">and leadership.</text>
+  <text x="112" y="486" fill="#5D6470" font-family="IBM Plex Mono, monospace" font-size="24">Weekly essays with a calm, technical lens.</text>
+</svg>

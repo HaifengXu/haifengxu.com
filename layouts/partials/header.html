@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div>
+    <a class="brand" href="{{ `/` | relURL }}">haifengxu.com</a>
+    <p class="brand-note">essays on tech, reflection, and leadership</p>
+  </div>
+  <nav class="site-nav" aria-label="Primary">
+    {{ range site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+    <a href="{{ with site.Home.OutputFormats.Get `RSS` }}{{ .RelPermalink }}{{ end }}">RSS</a>
+  </nav>
+</header>
