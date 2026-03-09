@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown to Hugo Post"
+  short_description: "Create a Hugo blog post from a markdown file"
+  default_prompt: "Turn a markdown file into a Hugo post in the current site repo."

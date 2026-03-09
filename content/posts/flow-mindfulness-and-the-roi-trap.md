@@ -9,6 +9,8 @@ toc = true
 readingTime = true
 featured = false
 +++
+![Pasted image 20260308165746](/posts/flow-mindfulness-and-the-roi-trap/pasted-image-20260308165746.png)
+
 One evening I sat down to fix a small issue in the codebase.
 
 It looked like a fifteen-minute task. Then one thing led to another. I traced the logic, cleaned up a rough edge, and found a better shape for a nearby piece of the system. The work became quiet and absorbing in the best way.
@@ -18,8 +20,6 @@ When I finally looked up, it was much later than I intended. The house was silen
 That state has a name. Mihaly Csikszentmihalyi called it **flow**: full absorption in an activity, accompanied by a strange loosening of time.
 
 I have come to value that state more as I get older. It is one of the few experiences that feels both productive and intrinsically satisfying. But I have also noticed a tension around it, especially as my relationship with time has become more managerial.
-
-![IMG 2957](/posts/flow-mindfulness-and-the-roi-trap/img-2957.jpeg)
 
 ## When time becomes an investment
 
@@ -38,6 +38,8 @@ When every hour has to defend itself, wandering starts to look irresponsible. Yo
 That is the trap.
 
 ## How ideas actually arrive
+
+![IMG 2957](/posts/flow-mindfulness-and-the-roi-trap/img-2957.jpeg)
 
 Some of my best ideas have not arrived while staring harder at the problem, during a shower, on a run, in the middle of reading something unrelated, or hours after I stopped trying to force a solution.
 
