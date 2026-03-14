@@ -3,16 +3,12 @@ title = "About"
 description = "About Haifeng Xu"
 +++
 
-I build software, lead teams, and keep returning to the human side of technical work.
+This site is where I write about family, work, technology, reflection, and whatever other topics feel worth exploring, often with help from AI agents.
 
-This site is where I write about three things:
+I live in Seattle, Washington with my wife, and I'm a dad to two lovely young girls.
 
-- technology that changes how people work
-- reflection that sharpens judgment
-- leadership that scales without losing clarity
+I feel free when running.
 
-Most posts start from something practical: a product decision, a leadership tradeoff, or a pattern I notice while building. Then I try to follow the idea far enough to make it useful.
+I grew up listening to J-pop, and there is still something deeply fulfilling to me about new age piano.
 
-If a post is worth publishing, it should help someone think more clearly about their own work.
-
-You can find me on [GitHub](https://github.com/haifengxu), [LinkedIn](https://www.linkedin.com/in/haifeng-xu-88526728/), or by email at [me@haifengxu.com](mailto:me@haifengxu.com).
+You can find me on [LinkedIn](https://www.linkedin.com/in/haifeng-xu-88526728/) or by email at [me@haifengxu.com](mailto:me@haifengxu.com).

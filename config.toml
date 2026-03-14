@@ -32,10 +32,10 @@ pagination.pagerSize = 8
     ordered = false
 
 [params]
-  description = "notes on building, engineering, and clarity, for humans"
+  description = "thoughts before production"
   author = "Haifeng Xu"
   accentColor = "#4c8cf5"
-  tagline = "notes on building, engineering, and clarity, for humans"
+  tagline = "thoughts before production"
   location = "Seattle, Washington"
   email = "me@haifengxu.com"
   ogImage = "/og/cover.svg"
