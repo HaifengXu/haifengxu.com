@@ -3,3 +3,4 @@ resources/
 .hugo_build.lock
 .wrangler/
 .DS_Store
+content/posts/.obsidian/
