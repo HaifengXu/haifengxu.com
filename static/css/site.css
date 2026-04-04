@@ -110,7 +110,7 @@ pre,
 .brand-lockup {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  align-items: baseline;
   gap: 0.65rem 0.95rem;
 }
 
@@ -127,10 +127,11 @@ pre,
 .site-tagline {
   margin: 0;
   display: block;
+  font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
   color: var(--muted);
-  font-size: 0.96rem;
-  line-height: 1.12;
-  transform: translateY(0.04rem);
+  font-size: 0.84rem;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .eyebrow,
@@ -672,9 +673,8 @@ pre,
   }
 
   .site-tagline {
-    font-size: 0.94rem;
-    line-height: 1.35;
-    transform: translateY(-0.16rem);
+    font-size: 0.78rem;
+    line-height: 1.1;
   }
 
   .site-nav,
