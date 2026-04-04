@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $toc := .TableOfContents }}
-  <article class="post-single">
+  <article class="post-single post-single-minimal">
     <header class="post-header">
       <p class="eyebrow">Essay</p>
       <h1>{{ .Title }}</h1>
@@ -20,6 +20,7 @@
           {{ end }}
         </ul>
       {{ end }}
+      <div class="post-rule" aria-hidden="true"></div>
     </header>
 
     {{ if and .Params.toc (findRE "<li>" $toc 1) }}

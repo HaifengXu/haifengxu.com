@@ -1,6 +1,11 @@
 {{ define "main" }}
   {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
 
+  <section class="section-head section-head-minimal" aria-label="Archive heading">
+    <p class="eyebrow">Archive</p>
+    <p>{{ len $posts }} essays</p>
+  </section>
+
   <section class="post-list" aria-label="Recent posts">
     {{ range $posts }}
       {{ partial "post-card.html" . }}

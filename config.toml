@@ -43,6 +43,7 @@ pagination.pagerSize = 8
   intro = "gamma"
   github = "https://github.com/haifengxu"
   linkedin = "https://www.linkedin.com/in/haifeng-xu-88526728/"
+  substack = "https://haifengxu.substack.com/"
   x = "https://x.com/haifengxu"
 
 [menu]

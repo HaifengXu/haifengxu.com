@@ -7,15 +7,15 @@
   </div>
   <div class="post-card-heading">
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{ with .Params.tags }}
-      <ul class="tag-list" aria-label="Tags">
-        {{ range first 3 . }}
-          <li><a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">#{{ . }}</a></li>
-        {{ end }}
-      </ul>
-    {{ end }}
   </div>
   {{ with .Params.description }}
     <p>{{ . }}</p>
+  {{ end }}
+  {{ with .Params.tags }}
+    <ul class="tag-list" aria-label="Tags">
+      {{ range first 3 . }}
+        <li><a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">#{{ . }}</a></li>
+      {{ end }}
+    </ul>
   {{ end }}
 </article>
