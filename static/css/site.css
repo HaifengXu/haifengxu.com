@@ -377,11 +377,11 @@ pre,
 }
 
 .post-single-minimal .post-header h1 {
-  max-width: 14ch;
-  font-size: clamp(2.2rem, 4.6vw, 4rem);
+  max-width: 15ch;
+  font-size: clamp(1.95rem, 3.9vw, 3.45rem);
   font-weight: 600;
-  line-height: 0.94;
-  letter-spacing: -0.035em;
+  line-height: 0.96;
+  letter-spacing: -0.03em;
   text-wrap: balance;
   color: #302c27;
 }
@@ -739,8 +739,8 @@ pre,
 
   .post-single-minimal .post-header h1 {
     max-width: none;
-    font-size: clamp(2.45rem, 12vw, 3.1rem);
-    line-height: 0.98;
+    font-size: clamp(1.95rem, 10.2vw, 2.6rem);
+    line-height: 0.99;
   }
 
   .post-single-minimal .post-meta {
