@@ -8,6 +8,7 @@ categories = ["Books", "Reflections"]
 toc = true
 readingTime = true
 featured = false
+leadImageSize = "small"
 +++
 ![Pasted image 20260726141210](/posts/flowers-for-algernon/pasted-image-20260726141210.png)
 

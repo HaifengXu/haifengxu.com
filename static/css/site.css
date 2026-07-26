@@ -476,6 +476,11 @@ pre,
   background: rgba(255, 255, 255, 0.45);
 }
 
+.post-single-minimal.post-lead-image-small .prose > p:first-child img {
+  width: min(100%, 24rem);
+  margin-inline: auto;
+}
+
 .prose blockquote,
 .content-body blockquote {
   margin-left: 0;

@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $toc := .TableOfContents }}
-  <article class="post-single post-single-minimal">
+  <article class="post-single post-single-minimal{{ with .Params.leadImageSize }} post-lead-image-{{ . | urlize }}{{ end }}">
     <header class="post-header">
       <p class="eyebrow">Essay</p>
       <h1>{{ .Title }}</h1>
